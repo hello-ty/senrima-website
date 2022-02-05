@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon, PhoneOutgoingIcon } from "@heroicons/react/outline";
 import clsx from "clsx";
+import Image from "next/image";
 
 const navigation = [
   { name: "トップ", href: "#", current: true },
@@ -19,11 +20,11 @@ export default function Header() {
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 font-fancy">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-blue-800 hover:bg-blue-200">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:bg-gray-200">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -34,7 +35,15 @@ export default function Header() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <h1 className={clsx("text-blue-800 text-2xl")}>焼肉千里馬</h1>
+                  <h1 className={clsx("w-10 h-10")}>
+                    <figure className={clsx("relative w-10 h-10")}>
+                      <Image
+                        src="/Header/logo.png"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </figure>
+                  </h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -44,8 +53,8 @@ export default function Header() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-blue-200 text-blue-800"
-                            : "text-blue-800 hover:bg-blue-200 hover:text-blue-800",
+                            ? "bg-gray-200 text-gray-800"
+                            : "text-gray-800 hover:bg-gray-200 hover:text-gray-800",
                           "px-3 py-2 rounded-md text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -62,7 +71,7 @@ export default function Header() {
                   <div>
                     <Menu.Button className="flex text-sm rounded-full">
                       <span className="sr-only">Open phone menu</span>
-                      <PhoneOutgoingIcon className="h-7 w-7 rounded-full text-blue-800" />
+                      <PhoneOutgoingIcon className="h-7 w-7 rounded-full text-gray-800" />
                     </Menu.Button>
                   </div>
                   <Transition
@@ -95,7 +104,7 @@ export default function Header() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="sm:hidden font-fancy">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Disclosure.Button
@@ -104,8 +113,8 @@ export default function Header() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-blue-200 text-blue-800"
-                      : "text-blue-800 hover:bg-blue-200",
+                      ? "bg-gray-200 text-gray-800"
+                      : "text-gray-800 hover:bg-gray-200",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
