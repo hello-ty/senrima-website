@@ -6,7 +6,12 @@ export function Card(props) {
     <>
       <div className="max-w-sm rounded overflow-hidden shadow-lg mb-10 lg:mb-0">
         <figure className={clsx("relative w-full h-52 border bg-slate-500")}>
-          <Image src={props.src} layout="fill" objectFit="cover" />
+          <Image
+            src={props.src}
+            layout="fill"
+            objectFit="cover"
+            alt={props.alt}
+          />
         </figure>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{props.title}</div>
