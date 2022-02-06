@@ -4,11 +4,12 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon, PhoneOutgoingIcon } from "@heroicons/react/outline";
 import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 
 const navigation = [
-  { name: "トップ", href: "#", current: true },
-  { name: "厳選和牛・メニュー", href: "#", current: false },
-  { name: "アクセス", href: "#", current: false },
+  { name: "トップ", href: "/", current: true },
+  { name: "厳選和牛・メニュー", href: "/", current: false },
+  { name: "アクセス", href: "/", current: false },
 ];
 
 function classNames(...classes) {
@@ -41,6 +42,7 @@ export default function Header() {
                         src="/Header/logo.png"
                         layout="fill"
                         objectFit="contain"
+                        alt="ロゴ"
                       />
                     </figure>
                   </h1>
@@ -48,19 +50,19 @@ export default function Header() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-200 text-gray-800"
-                            : "text-gray-800 hover:bg-gray-200 hover:text-gray-800",
-                          "px-3 py-2 rounded-md text-sm font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
+                      <Link key={item.name} href={item.href}>
+                        <a
+                          className={classNames(
+                            item.current
+                              ? "bg-gray-200 text-gray-800"
+                              : "text-gray-800 hover:bg-gray-200 hover:text-gray-800",
+                            "px-3 py-2 rounded-md text-sm font-medium"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -93,7 +95,7 @@ export default function Header() {
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
-                            000-0000-0000
+                            052-446-7257
                           </a>
                         )}
                       </Menu.Item>
