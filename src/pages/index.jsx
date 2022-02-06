@@ -4,7 +4,7 @@ import Header from "src/components/Header";
 import { Main } from "src/components/Main";
 import classes from "/src/styles/Home.module.css";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <Head>
@@ -28,4 +28,6 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+};
+
+export default Home;
