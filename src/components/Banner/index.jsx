@@ -8,18 +8,18 @@ export function Banner() {
       <div
         className={clsx("overflow-hidden border w-screen h-auto font-fancy")}
       >
-        <div className={clsx("w-full h-full bg-slate-800")}>
+        <div className={clsx("w-[300%] h-full -ml-80  bg-slate-800")}>
           <video
             autoPlay
             loop
             muted
-            width={"100%"}
+            width={"200%"}
             src="/topmovie.mp4"
             className=""
           ></video>
           <figure
             className={clsx(
-              "w-40 h-24 md:w-56 md:h-40 lg:w-96 lg:h-64 z-30",
+              "w-60 h-32 md:w-56 md:h-40 lg:w-96 lg:h-64 z-30",
               classes.photo
             )}
           >
