@@ -12,7 +12,7 @@ export function Main() {
           "border  py-7 lg:px-24 md:px-10 sm:px-1 w-screen font-fancy"
         )}
       >
-        <div className="w-full h-64 mt-24">
+        {/* <div className="w-full h-64 mt-24">
           <figure className="relative w-96 h-full block mx-auto">
             <Image
               src="/Header/logo.png"
@@ -21,7 +21,7 @@ export function Main() {
               alt="ロゴ"
             />
           </figure>
-        </div>
+        </div> */}
         <Menus />
         <Cource />
         <Access />

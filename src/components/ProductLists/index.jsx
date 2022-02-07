@@ -3,8 +3,8 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    price: "ヒレステーキ",
+    name: "",
+    price: "厚切りタン",
     imageSrc: "/Product/hire.jpg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
@@ -12,7 +12,7 @@ const products = [
   {
     id: 2,
     name: "Machined Mechanical Pencil",
-    price: "軟骨",
+    price: "塩ミノ",
     imageSrc: "/Product/nankotu.jpg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 3,
     name: "Machined Mechanical Pencil",
-    price: "てっちゃん",
+    price: "特選ハラミ",
     imageSrc: "/Product/tettyan.jpg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 4,
     name: "Machined Mechanical Pencil",
-    price: "焼きしゃぶ",
+    price: "上カルビ",
     imageSrc: "/Product/yakisyabu.jpg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -36,7 +36,7 @@ const products = [
   {
     id: 5,
     name: "Nomad Tumbler",
-    price: "カクテキ",
+    price: "イチボ",
     imageSrc: "/Product/kakuteki.jpg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",

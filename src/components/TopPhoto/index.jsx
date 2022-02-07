@@ -15,7 +15,7 @@ export const TopPhoto = () => {
               alt="千里馬二階"
             />
           </figure>
-          <div className={clsx(classes.img)}>
+          <div className={clsx("w-full text-center", classes.img)}>
             <h1 className={clsx("text-white text-5xl")}>お品書き</h1>
           </div>
         </div>
