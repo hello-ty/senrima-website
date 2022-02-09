@@ -8,12 +8,12 @@ export function Banner() {
       <div
         className={clsx("overflow-hidden border w-screen h-auto font-fancy")}
       >
-        <div className={clsx("w-[300%] h-full -ml-80  bg-slate-800")}>
+        <div className={clsx(" h-full  bg-slate-800", classes.banner)}>
           <video
             autoPlay
             loop
             muted
-            width={"200%"}
+            width={"100%"}
             src="/topmovie.mp4"
             className=""
           ></video>

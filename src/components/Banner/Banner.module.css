@@ -18,6 +18,10 @@
   text-shadow: 1px 2px 3px #808080;
 }
 
+.banner {
+  width: 100%;
+}
+
 @media screen and (min-width: 959px) {
   /* 480px以下に適用されるCSS（スマホ用） */
   .photo {
@@ -33,24 +37,40 @@
   .photo {
     top: -20%;
     left: 0%;
-    /* display: none; */
+  }
+  .banner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* 1024px以下に適用されるCSS（スマホ用） */
+  .photo {
+    top: 2 0%;
+    left: 0%;
+  }
+  .banner {
+    margin-left: -30%;
+    width: 200%;
   }
 }
 
 @media screen and (max-width: 425px) {
   /* 425px以下に適用されるCSS（スマホ用） */
   .photo {
-    /* width: 21rem;
-    height: 14rem; */
     top: 0%;
     left: 0%;
+  }
+  .banner {
+    margin-left: -80%;
+    width: 300%;
   }
 }
 
 @media screen and (max-width: 320px) {
   /* 320px以下に適用されるCSS（スマホ用） */
   .photo {
-    top: -50%;
+    top: 0%;
     left: 0%;
   }
 }
