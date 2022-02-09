@@ -16,7 +16,7 @@ export default function Menus() {
       description: "ワインからジュースまで揃ってます。",
       imageSrc: "/Menu/beer.jpg",
       imageAlt: "ドリンク",
-      href: "#",
+      href: "/PDF/drink.pdf",
       alt: "ドリンクメニュー",
     },
     {
