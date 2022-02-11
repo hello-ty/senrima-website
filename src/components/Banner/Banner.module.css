@@ -1,10 +1,33 @@
 .img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  margin: auto;
-  text-shadow: 1px 2px 3px #808080;
+  animation: change-img-anim 30s infinite;
+}
+
+.img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.img:nth-of-type(2) {
+  animation-delay: 10s;
+}
+.img:nth-of-type(3) {
+  animation-delay: 20s;
+}
+
+@keyframes change-img-anim {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  36% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .photo {
@@ -16,63 +39,6 @@
   margin: auto;
   opacity: 0.8;
   text-shadow: 1px 2px 3px #808080;
-}
-
-.banner {
-  width: 100%;
-}
-
-@media screen and (min-width: 959px) {
-  /* 480px以下に適用されるCSS（スマホ用） */
-  .photo {
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  /* 1024px以下に適用されるCSS（スマホ用） */
-  .photo {
-    top: -20%;
-    left: 0%;
-  }
-  .banner {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  /* 1024px以下に適用されるCSS（スマホ用） */
-  .photo {
-    top: 2 0%;
-    left: 0%;
-  }
-  .banner {
-    margin-left: -30%;
-    width: 200%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  /* 425px以下に適用されるCSS（スマホ用） */
-  .photo {
-    top: 0%;
-    left: 0%;
-  }
-  .banner {
-    margin-left: -80%;
-    width: 300%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  /* 320px以下に適用されるCSS（スマホ用） */
-  .photo {
-    top: 0%;
-    left: 0%;
-  }
 }
 
 .photo:after {
