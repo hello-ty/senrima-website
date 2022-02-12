@@ -4,9 +4,11 @@ import clsx from "clsx";
 
 export function Banner() {
   const ImageSrc = [
-    { src: "/Banner/interior.jpg", alt: "千里馬内装" },
-    { src: "/Banner/bakedmeel.png", alt: "千里馬内装" },
-    { src: "/Banner/senrimadooor.jpg", alt: "千里馬内装" },
+    { src: "/Banner/beatutifultan.jpg", alt: "千里馬内装" },
+    { src: "/Banner/frontdoor.jpg", alt: "千里馬内装" },
+    { src: "/Banner/firstcounter.jpeg", alt: "千里馬内装" },
+    { src: "/Banner/secondcounter.jpeg", alt: "千里馬内装" },
+    { src: "/Banner/secondfloor.jpeg", alt: "千里馬内装" },
   ];
 
   return (
@@ -28,7 +30,7 @@ export function Banner() {
           ))}
           <figure
             className={clsx(
-              "w-60 h-32 md:w-56 md:h-40 lg:w-96 lg:h-64 z-30",
+              "w-60 h-40 md:w-56 md:h-48 lg:w-96 lg:h-64 z-30",
               classes.photo
             )}
           >
