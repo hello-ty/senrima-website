@@ -93,13 +93,13 @@ export const products = {
   tinmi: [
     {
       description: "もやし・ほうれん草・ぜんまい・大根の和え物",
-      name: "ナムル　777円",
+      name: "ナムル　600円",
       imageSrc: "/Product/namuru.jpg",
       imageAlt: "ナムル",
     },
     {
       description: "大豆もやしを韓国風に仕上げました",
-      name: "ピリ辛もやし　777円",
+      name: "ピリ辛もやし　500円",
       imageSrc: "/NewMenu/pirikaramoyasi.jpeg",
       imageAlt: "ピリ辛もやし",
     },

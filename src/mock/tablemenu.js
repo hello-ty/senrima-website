@@ -91,22 +91,17 @@ export const tableMenu = {
     {
       name: "チャンジャ",
       description: "鱈の内臓を使った韓国塩辛",
-      price: 777,
+      price: 500,
     },
     {
       name: "韓国のり",
       description: "胡麻油風味、ご飯のお供に是非どうぞ",
-      price: 777,
+      price: 200,
     },
     {
       name: "胡麻の葉",
       description: "胡麻の葉の醤油付け",
-      price: 777,
-    },
-    {
-      name: "青唐辛子",
-      description: "きざみとスライスが選択できます",
-      price: 777,
+      price: 500,
     },
   ],
   soup: [
