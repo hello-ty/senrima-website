@@ -111,4 +111,18 @@ export const products = {
       imageAlt: "ピリ辛もやし",
     },
   ],
+  soup: [
+    {
+      description: "醤油味、牛尾を８時間かけて、じっくり煮込みました",
+      name: "テールスープ(赤)　777円",
+      imageSrc: "/NewMenu/teelsupeaka.jpeg",
+      imageAlt: "テールスープ(赤)",
+    },
+    {
+      description: "塩味",
+      name: "テールスープ(白)　777円",
+      imageSrc: "/NewMenu/teelsupe.jpeg",
+      imageAlt: "テールスープ(白)",
+    },
+  ],
 };
