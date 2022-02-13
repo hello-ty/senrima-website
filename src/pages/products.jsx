@@ -13,7 +13,7 @@ const Products = () => {
 
       <Header />
 
-      <TopPhoto />
+      <TopPhoto title="お品書き" />
 
       <ProductLists />
 
