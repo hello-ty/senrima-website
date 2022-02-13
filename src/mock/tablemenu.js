@@ -50,4 +50,26 @@ export const tableMenu = {
       price: 777,
     },
   ],
+  soup: [
+    {
+      name: "ユッケジャンスープ",
+      description: "韓国の代表的な辛味スープ",
+      price: 777,
+    },
+    {
+      name: "わかめスープ",
+      description: "何書こう",
+      price: 777,
+    },
+    {
+      name: "玉子スープ",
+      description: "何書こう",
+      price: 777,
+    },
+    {
+      name: "もやしスープ",
+      description: "何書こう",
+      price: 777,
+    },
+  ],
 };
