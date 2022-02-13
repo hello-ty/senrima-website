@@ -45,8 +45,7 @@ export const tableMenu = {
     },
     {
       name: "青唐辛子",
-      description:
-        "特製辛みそを付けてお召し上がりください。きざみスライスもご用意できます",
+      description: "きざみとスライスが選択できます",
       price: 777,
     },
   ],

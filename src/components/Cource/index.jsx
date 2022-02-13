@@ -8,7 +8,15 @@ export function Cource() {
       href: "",
       title: "桜コース",
       src: "/Cource/sakura01.jpg",
-      content: "タン / 焼野菜 / 特選ハラミ / キムチ",
+      content: `塩タン
+      塩ホルモン
+      塩軟骨
+      カルビ
+      サガリ
+      焼野菜
+      キムチ
+      クッパ
+      デザート`,
       tab1: "3500円",
       tab2: "税込(3850円)",
       alt: "桜コース",
@@ -17,7 +25,15 @@ export function Cource() {
       href: "",
       title: "椿コース",
       src: "/Cource/tubaki01.jpg",
-      content: "タン / 焼野菜 / 特選ハラミ / キムチ",
+      content: `塩タン
+      塩ホルモン
+      塩軟骨
+      カルビ
+      サガリ
+      焼野菜
+      キムチ
+      クッパ
+      デザート`,
       tab1: "5000円",
       tab2: "税込(5500円)",
       alt: "椿コース",
