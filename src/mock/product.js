@@ -1,67 +1,67 @@
 export const products = {
   meet: [
     {
-      description: "何書こう",
-      name: "ヒレステーキ",
+      description:
+        "歯が触れただけで崩れる柔らかさと、何度食べてもウットリする優しい味わいは別格です。",
+      name: "ヒレステーキ　2200円",
       imageSrc: "/Product/hire.jpg",
       imageAlt: "ヒレステーキ",
     },
     {
       description: "豚ののどぶえ、コリコリした食感が特徴です。",
-      name: "塩ナンコツ",
+      name: "ナンコツ　600円",
       imageSrc: "/Product/nankotu.jpg",
-      imageAlt: "塩ナンコツ",
+      imageAlt: "ナンコツ",
     },
     {
       description: "大腸の中でも特にやわらかく希少性の高い上質部位",
-      name: "上ホルモン",
+      name: "上ホルモン　780円",
       imageSrc: "/Product/tettyan.jpg",
       imageAlt: "上ホルモン",
     },
     {
       description: "ロースの中で最高峰とされるサーロイン",
-      name: "特選サーロイン",
+      name: "特選サーロイン　2500円",
       imageSrc: "/Product/yakisyabu.jpg",
       imageAlt: "特選サーロイン",
     },
     {
       description: "脂質が少なく、あっさりした肉本来の旨味が特徴",
-      name: "ロース",
+      name: "ロース　990円",
       imageSrc: "/NewMenu/ro-su.jpeg",
       imageAlt: "ロース",
     },
     {
-      description: "脂の甘さも肉の旨味もしっかりと濃く肉質は高い",
-      name: "上カルビ",
-      imageSrc: "/NewMenu/zyoukarubi.jpeg",
-      imageAlt: "上カルビ",
+      description: "臀周りの部位、上質で旨味もしっかりと濃く肉質は高い",
+      name: "イチボ　1580円",
+      imageSrc: "/NewMenu/itibo.jpeg",
+      imageAlt: "イチボ",
     },
     {
       description: "何書こう ",
-      name: "ミックスホルモン",
+      name: "ミックスホルモン　980円",
       imageSrc: "/NewMenu/mikkusuhorumon.jpeg",
       imageAlt: "ミックスホルモン",
     },
     {
       description: "歯切れはさっくりと優しく豊かな旨味が口中に広がります",
-      name: "塩タン",
+      name: "塩タン　980円",
       imageSrc: "/NewMenu/tan.jpeg",
       imageAlt: "塩タン",
+    },
+    {
+      description: "牛タンの上質な部位だけを厚切りにしました",
+      name: "厚切りタン　1450円",
+      imageSrc: "/NewMenu/atugiritan.jpeg",
+      imageAlt: "厚切りタン",
     },
   ],
   salad: [
     {
       description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
-      name: "韓国サラダ",
+      name: "韓国サラダ　650円",
       imageSrc: "/Product/kannkoku.jpg",
       imageAlt: "韓国サラダ",
-    },
-    {
-      description: "Machined Mechanical Pencil",
-      name: "特選上レバー",
-      imageSrc: "/Product/reba.jpg",
-      imageAlt:
-        "Hand holding black machined steel mechanical pencil with brass tip and top.",
     },
     {
       description: "Machined Mechanical Pencil",
