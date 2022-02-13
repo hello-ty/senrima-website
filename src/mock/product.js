@@ -56,6 +56,26 @@ export const products = {
       imageAlt: "厚切りタン",
     },
   ],
+  new: [
+    {
+      description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
+      name: "ハツ刺し",
+      imageSrc: "/Product/kannkoku.jpg",
+      imageAlt: "ハツ刺し",
+    },
+    {
+      description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
+      name: "せんまい",
+      imageSrc: "/Product/kannkoku.jpg",
+      imageAlt: "ハツ刺し",
+    },
+    {
+      description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
+      name: "特選上レバー(必ず焼いてお召し上がりいただきます)",
+      imageSrc: "/Product/reba.jpg",
+      imageAlt: "ハツ刺し",
+    },
+  ],
   salad: [
     {
       description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
@@ -107,13 +127,13 @@ export const products = {
   soup: [
     {
       description: "醤油味、牛尾を８時間かけて、じっくり煮込みました",
-      name: "テールスープ(赤)　777円",
+      name: "テールスープ(赤)　1000円",
       imageSrc: "/NewMenu/teelsupeaka.jpeg",
       imageAlt: "テールスープ(赤)",
     },
     {
       description: "塩味",
-      name: "テールスープ(白)　777円",
+      name: "テールスープ(白)　1000円",
       imageSrc: "/NewMenu/teelsupe.jpeg",
       imageAlt: "テールスープ(白)",
     },
