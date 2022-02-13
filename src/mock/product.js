@@ -19,10 +19,10 @@ export const products = {
       imageAlt: "上ホルモン",
     },
     {
-      description: "何書こう",
-      name: "焼きしゃぶ",
+      description: "ロースの中で最高峰とされるサーロイン",
+      name: "特選サーロイン",
       imageSrc: "/Product/yakisyabu.jpg",
-      imageAlt: "焼きしゃぶ",
+      imageAlt: "特選サーロイン",
     },
     {
       description: "脂質が少なく、あっさりした肉本来の旨味が特徴",

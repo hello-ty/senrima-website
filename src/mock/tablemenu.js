@@ -66,10 +66,5 @@ export const tableMenu = {
       description: "何書こう",
       price: 777,
     },
-    {
-      name: "もやしスープ",
-      description: "何書こう",
-      price: 777,
-    },
   ],
 };
