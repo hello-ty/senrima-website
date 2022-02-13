@@ -63,13 +63,6 @@ export const products = {
       imageSrc: "/Product/kannkoku.jpg",
       imageAlt: "韓国サラダ",
     },
-    {
-      description: "Machined Mechanical Pencil",
-      name: "せんまい",
-      imageSrc: "/Product/senmai.jpg",
-      imageAlt:
-        "Hand holding black machined steel mechanical pencil with brass tip and top.",
-    },
   ],
   tukemono: [
     {

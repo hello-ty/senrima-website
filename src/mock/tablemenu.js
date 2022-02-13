@@ -126,4 +126,53 @@ export const tableMenu = {
       price: 777,
     },
   ],
+  men: [
+    {
+      name: "冷麺",
+      description: "コシの強さとあっさりスープが味の決め手です。",
+      price: 880,
+    },
+    {
+      name: "ビビン麺",
+      description: "何書こう",
+      price: 880,
+    },
+    {
+      name: "テールそば",
+      description: "何書こう",
+      price: 980,
+    },
+    {
+      name: "ユッケジャンうどん",
+      description: "何書こう",
+      price: 880,
+    },
+  ],
+  salad: [
+    {
+      name: "ニンニクオイル焼き",
+      description: "スライス・粒",
+      price: 400,
+    },
+    {
+      name: "ネギサラダ",
+      description: "ネギだけのサラダ",
+      price: 500,
+    },
+    {
+      name: "チシャ葉",
+      description: "お肉やキムチを包み、特製辛みそを添えて",
+      price: 500,
+    },
+    {
+      name: "野菜サラダ",
+      description: "新鮮野菜を自家製ドレッシングで、お肉のお供にぜひどうぞ",
+      price: 650,
+    },
+    {
+      name: "旬の焼野菜",
+      description: "季節の野菜を焼いてお召し上がり下さい",
+      price: 680,
+    },
+  ],
 };

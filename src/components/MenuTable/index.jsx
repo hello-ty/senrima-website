@@ -71,7 +71,47 @@ export const MenuTable = (props) => {
                         </td>
                       </tr>
                     ))
-                  : tableMenu.soup.map((item) => (
+                  : props.title === "soup"
+                  ? tableMenu.soup.map((item) => (
+                      <tr key={item.name}>
+                        <td className="px-6 py-4 whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="text-sm font-medium text-gray-900">
+                              {item.name}
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap">
+                          <div className="text-sm text-gray-900">
+                            {item.description}
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          {item.price}円
+                        </td>
+                      </tr>
+                    ))
+                  : props.title === "men"
+                  ? tableMenu.men.map((item) => (
+                      <tr key={item.name}>
+                        <td className="px-6 py-4 whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="text-sm font-medium text-gray-900">
+                              {item.name}
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap">
+                          <div className="text-sm text-gray-900">
+                            {item.description}
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          {item.price}円
+                        </td>
+                      </tr>
+                    ))
+                  : tableMenu.salad.map((item) => (
                       <tr key={item.name}>
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div className="flex items-center">

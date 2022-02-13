@@ -61,6 +61,8 @@ export const ProductLists = () => {
         </div>
       </div>
 
+      <MenuTable title="salad" />
+
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-center text-3xl mb-10">漬物</h2>
 
@@ -115,6 +117,12 @@ export const ProductLists = () => {
         </div>
       </div>
       <MenuTable title="tinmi" />
+
+      <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h2 className="text-center text-3xl mb-10">麺</h2>
+      </div>
+
+      <MenuTable title="men" />
 
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-center text-3xl mb-10">スープ</h2>
