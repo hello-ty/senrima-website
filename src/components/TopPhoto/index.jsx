@@ -2,7 +2,7 @@ import Image from "next/image";
 import clsx from "clsx";
 import classes from "/src/components/TopPhoto/TopPhoto.module.css";
 
-export const TopPhoto = () => {
+export const TopPhoto = (props) => {
   return (
     <>
       <div className={clsx("border w-screen h-[calc(100vh-20rem)] font-fancy")}>
@@ -16,7 +16,7 @@ export const TopPhoto = () => {
             />
           </figure>
           <div className={clsx("w-full text-center", classes.img)}>
-            <h1 className={clsx("text-white text-5xl")}>お品書き</h1>
+            <h1 className={clsx("text-white text-5xl")}>{props.title}</h1>
           </div>
         </div>
       </div>
