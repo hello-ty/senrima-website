@@ -28,7 +28,7 @@ export function Banner() {
               />
             </figure>
           ))}
-          <figure
+          {/* <figure
             className={clsx(
               "w-60 h-40 md:w-56 md:h-48 lg:w-96 lg:h-64 z-30",
               classes.photo
@@ -40,7 +40,7 @@ export function Banner() {
               objectFit="cover"
               alt="千里馬内装"
             />
-          </figure>
+          </figure> */}
         </div>
       </div>
     </>
