@@ -1,7 +1,7 @@
 export const tableMenu = {
   meet: [
     {
-      name: "ネギ塩たん",
+      name: "ネギ塩タン",
       description: "味付けネギとタンとの相性が抜群です",
       price: 777,
     },
