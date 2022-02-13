@@ -20,7 +20,7 @@ export const menulists = [
     description: "オーダー毎に丁寧に焼き上げます。",
     imageSrc: "/Menu/toptanbentou.jpeg",
     imageAlt: "アイス",
-    href: "#",
+    href: "/Menu/bentou",
     alt: "おいしい焼肉弁当",
   },
 ];
