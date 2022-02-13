@@ -67,25 +67,25 @@ export const products = {
   tukemono: [
     {
       description: "白菜",
-      name: "白菜キムチ",
+      name: "白菜キムチ　480円",
       imageSrc: "/Product/kimuti.jpg",
       imageAlt: "白菜キムチ",
     },
     {
       description: "大根",
-      name: "カクテキ",
+      name: "カクテキ　480円",
       imageSrc: "/NewMenu/kakuteki.jpg",
       imageAlt: "カクテキ",
     },
     {
       description: "きゅうり",
-      name: "オイキムチ",
+      name: "オイキムチ　480円",
       imageSrc: "/NewMenu/oikimuti.jpeg",
       imageAlt: "オイキムチ",
     },
     {
-      description: "",
-      name: "キムチ盛合せ",
+      description: "白菜、カクテキ、オイキムチの組み合わせです",
+      name: "キムチ盛合せ　680円",
       imageSrc: "/NewMenu/kimutimoriawase.jpeg",
       imageAlt: "キムチ盛合せ",
     },
