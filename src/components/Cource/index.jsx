@@ -8,7 +8,8 @@ export function Cource() {
       href: "",
       title: "桜コース",
       src: "/Cource/sakura01.jpg",
-      content: "タン / 焼野菜 / 特選ハラミ / キムチ",
+      content:
+        "塩タン / 塩ホルモン / 塩ナンコツ / カルビ / サガリ / 焼野菜 / キムチ / クッパ / デザート",
       tab1: "3500円",
       tab2: "税込(3850円)",
       alt: "桜コース",
@@ -17,7 +18,8 @@ export function Cource() {
       href: "",
       title: "椿コース",
       src: "/Cource/tubaki01.jpg",
-      content: "タン / 焼野菜 / 特選ハラミ / キムチ",
+      content:
+        "塩タン / 塩ホルモン / 塩ナンコツ / カルビ / サガリ / 焼野菜 / キムチ / クッパ / デザート",
       tab1: "5000円",
       tab2: "税込(5500円)",
       alt: "椿コース",
@@ -26,7 +28,7 @@ export function Cource() {
       href: "/PDF/freedrink.pdf",
       title: "飲み放題",
       src: "/Menu/beer.jpg",
-      content: "タン / 焼野菜 / 特選ハラミ / キムチ",
+      content: "",
       tab1: "1500円",
       tab2: "コース注文時のみ",
       alt: "飲み放題",
@@ -45,7 +47,7 @@ export function Cource() {
         </h1>
         <div
           className={clsx(
-            "flex items-center sm:justify-center flex-col lg:flex-row lg:gap-x-6"
+            "grid grid-rows-1 md:grid-cols-3 md:gap-4 justify-center"
           )}
         >
           {cardLists.map((item) => (
