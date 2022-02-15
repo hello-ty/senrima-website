@@ -58,22 +58,22 @@ export const products = {
   ],
   new: [
     {
-      description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
+      description: `何書こう`,
       name: "ハツ刺し",
-      imageSrc: "/Product/kannkoku.jpg",
+      imageSrc: "/NewMenu/hatusasi.jpeg",
       imageAlt: "ハツ刺し",
     },
     {
-      description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
+      description: `何書こう`,
       name: "せんまい",
       imageSrc: "/Product/kannkoku.jpg",
       imageAlt: "ハツ刺し",
     },
     {
       description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
-      name: "特選上レバー(必ず焼いてお召し上がりいただきます)",
+      name: "特選上レバー(焼き)",
       imageSrc: "/Product/reba.jpg",
-      imageAlt: "ハツ刺し",
+      imageAlt: "特選上レバー",
     },
   ],
   salad: [
