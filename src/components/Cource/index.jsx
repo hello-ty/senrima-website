@@ -9,7 +9,7 @@ export function Cource() {
       title: "桜コース",
       src: "/Cource/sakura01.jpg",
       content:
-        "塩タン / 塩ホルモン / 塩ナンコツ / カルビ / サガリ / 焼野菜 / キムチ / クッパ / デザート",
+        "塩タン / 塩ホルモン / 塩ナンコツ / カルビ / サガリ / 焼野菜 / キムチ / クッパ / デザート / 1500円で飲み放題も追加できます",
       tab1: "3500円",
       tab2: "2名様より承ります",
       alt: "桜コース",
@@ -19,15 +19,15 @@ export function Cource() {
       title: "椿コース",
       src: "/Cource/tubaki01.jpg",
       content:
-        "塩タン / 塩ホルモン / 塩ナンコツ / カルビ / サガリ / 焼野菜 / キムチ / クッパ / デザート",
+        "塩タン / 塩ホルモン / 塩ナンコツ / カルビ / サガリ / 焼野菜 / キムチ / クッパ / デザート / 1500円で飲み放題も追加できます",
       tab1: "5000円",
       tab2: "2名様より承ります",
       alt: "椿コース",
     },
     {
       href: "/PDF/freedrink.pdf",
-      title: "飲み放題",
-      src: "/PDF/freedrink.png",
+      title: "90分飲み放題",
+      src: "/beer.jpg",
       content: "",
       tab1: "1500円",
       tab2: "コース注文時のみ",
