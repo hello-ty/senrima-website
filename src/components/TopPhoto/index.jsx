@@ -9,10 +9,10 @@ export const TopPhoto = (props) => {
         <div className={clsx("relative w-full h-full bg-slate-800")}>
           <figure>
             <Image
-              src="/Product/negitan.jpg"
+              src="/NewMenu/negitan.jpg"
               layout="fill"
               objectFit="cover"
-              alt="千里馬二階"
+              alt="ネギたん"
             />
           </figure>
           <div className={clsx("w-full text-center", classes.img)}>

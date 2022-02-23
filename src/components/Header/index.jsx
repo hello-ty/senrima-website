@@ -16,7 +16,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Header() {
+const Header = () => {
   return (
     <Disclosure as="nav" className={clsx("bg-white")}>
       {({ open }) => (
@@ -130,4 +130,6 @@ export default function Header() {
       )}
     </Disclosure>
   );
-}
+};
+
+export default Header;
