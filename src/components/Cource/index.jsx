@@ -26,7 +26,7 @@ export function Cource() {
     },
     {
       href: "/PDF/freedrink.pdf",
-      title: "90分飲み放題",
+      title: "90分飲み放題メニュー",
       src: "/beer.jpg",
       content: "",
       tab1: "1500円",

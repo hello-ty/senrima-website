@@ -75,6 +75,8 @@ export default function Access() {
                 />
               </div>
             </dd>
+            <dt></dt>
+            <dd>40名様まで宴会できます</dd>
           </div>
           <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">住所</dt>
