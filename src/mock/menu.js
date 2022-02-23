@@ -12,7 +12,7 @@ export const menulists = [
     description: "ワインからジュースまで揃ってます。",
     imageSrc: "/Menu/beer.jpg",
     imageAlt: "ドリンク",
-    href: "/PDF/twodrink.pdf",
+    href: "/PDF/twodrink2.pdf",
     alt: "ドリンクメニュー",
   },
   {
