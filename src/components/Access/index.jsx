@@ -39,6 +39,44 @@ export default function Access() {
             </dd>
           </div>
           <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+            <dt className="text-sm font-medium text-gray-500">
+              1階
+              <br />
+              カウンターで一人焼肉をお楽しみいただけます
+            </dt>
+            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+              <div className="relative w-full lg:w-1/2  h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <Image
+                  src="/Banner/firstcounter.jpeg"
+                  alt="一階カウンター"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+            </dd>
+          </div>
+          <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+            <dt className="text-sm font-medium text-gray-500">2階</dt>
+            <dd className="mt-1 text-sm lg:flex text-gray-900 sm:mt-0 sm:col-span-2">
+              <div className="relative w-full lg:w-1/2 mb-5 lg:mr-5 h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <Image
+                  src="/Banner/secondcounter.jpeg"
+                  alt="二階カウンター"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+              <div className="relative w-full lg:w-1/2 h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <Image
+                  src="/Banner/secondfloor.jpeg"
+                  alt="二階カウンター"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+            </dd>
+          </div>
+          <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">住所</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
               〒453-0015 愛知県名古屋市中村区椿町１８−１６
