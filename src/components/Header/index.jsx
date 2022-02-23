@@ -7,9 +7,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navigation = [
-  { name: "トップ", href: "/", current: true },
-  { name: "厳選和牛・メニュー", href: "/", current: false },
-  { name: "アクセス", href: "/", current: false },
+  { name: "トップ", href: "/", current: false },
+  { name: "お品書き", href: "/products", current: false },
+  { name: "テイクアウト", href: "/Menu/bentou", current: false },
 ];
 
 function classNames(...classes) {
