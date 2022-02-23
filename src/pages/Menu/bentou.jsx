@@ -14,7 +14,7 @@ const Bentou = () => {
 
       <Header />
 
-      <TopPhoto title="焼肉弁当" />
+      {/* <TopPhoto title="焼肉弁当" imgSrc="/takeoutlogo3.png" alt="焼肉弁当" /> */}
 
       <BentouLists />
 

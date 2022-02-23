@@ -40,7 +40,7 @@ export const products = {
     {
       description: "塩・味噌・辛味噌選べます",
       name: "ミックスホルモン　980円",
-      imageSrc: "/NewMenu/mixhorumon.jpg",
+      imageSrc: "/NewMenu/mixhorumon.jpeg",
       imageAlt: "ミックスホルモン",
     },
     {

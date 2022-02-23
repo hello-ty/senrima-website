@@ -27,7 +27,8 @@ export const BentouLists = () => {
   return (
     <div className="bg-white font-fancy lg:px-24 md:px-10 sm:px-1">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="text-center text-3xl mb-10">肉（塩・タレ）</h2>
+        <h1 className="text-center text-6xl mb-16">焼肉弁当</h1>
+        <h2 className="text-center text-3xl mb-10">塩・タレ</h2>
 
         <div className="text-center grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
           {bentou.map((product) => (
@@ -51,6 +52,9 @@ export const BentouLists = () => {
             </p>
           ))}
         </div>
+        <h3 className="text-center text-2xl mb-10 mt-10">
+          ビビンバ弁当　700円　コシヒカリの上にナムルを載せてます。
+        </h3>
         <p className="text-center text-1xl mb-10 mt-10">
           ※肉増量＋500円/ご飯大盛り＋100円
         </p>

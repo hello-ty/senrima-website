@@ -27,7 +27,7 @@ export function Cource() {
     {
       href: "/PDF/freedrink.pdf",
       title: "飲み放題",
-      src: "/Menu/beer.jpg",
+      src: "/PDF/freedrink.png",
       content: "",
       tab1: "1500円",
       tab2: "コース注文時のみ",
