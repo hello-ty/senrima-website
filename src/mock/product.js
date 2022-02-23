@@ -40,7 +40,7 @@ export const products = {
     {
       description: "塩・味噌・辛味噌選べます",
       name: "ミックスホルモン　980円",
-      imageSrc: "/NewMenu/mikkusuhorumon.jpeg",
+      imageSrc: "/NewMenu/mixhorumon.jpg",
       imageAlt: "ミックスホルモン",
     },
     {
@@ -66,8 +66,8 @@ export const products = {
     {
       description: `第３胃・脂肪が少なく、鉄分・亜鉛が豊富`,
       name: "せんまい",
-      imageSrc: "/Product/kannkoku.jpg",
-      imageAlt: "ハツ刺し",
+      imageSrc: "/Product/senmai.jpg",
+      imageAlt: "せんまい",
     },
     {
       description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
@@ -122,6 +122,14 @@ export const products = {
       name: "ピリ辛もやし　500円",
       imageSrc: "/NewMenu/pirikaramoyasi.jpeg",
       imageAlt: "ピリ辛もやし",
+    },
+  ],
+  men: [
+    {
+      description: "本場韓国の味ピリ辛ソースが決め手です",
+      name: "ビビン麺　880円",
+      imageSrc: "/NewMenu/bibinnmen.jpeg",
+      imageAlt: "ビビン麺",
     },
   ],
   soup: [

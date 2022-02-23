@@ -27,7 +27,7 @@ export const tableMenu = {
     {
       name: "サムギョプサル",
       description:
-        "黒豚の三段バラ（付け合わせのチシャ葉・大葉・ネギ・ニンニクスライスを包んでお召し上がりください）",
+        "黒豚の三段バラ（付け合わせのチシャ葉・ネギ・ニンニクスライスを包んでお召し上がりください）",
       price: 1000,
       half: "",
     },
@@ -125,6 +125,12 @@ export const tableMenu = {
       price: 500,
       half: "",
     },
+    {
+      name: "青唐辛子",
+      description: "キザミ・スライスも選べます",
+      price: 200,
+      half: "",
+    },
   ],
   soup: [
     {
@@ -156,12 +162,6 @@ export const tableMenu = {
     {
       name: "冷麺",
       description: "コシの強さとあっさりスープが味の決め手です。",
-      price: 880,
-      half: "580円",
-    },
-    {
-      name: "ビビン麺",
-      description: "本場韓国の味ピリ辛ソースが決め手です",
       price: 880,
       half: "580円",
     },
