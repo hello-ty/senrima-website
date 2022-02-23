@@ -6,9 +6,6 @@ export function Banner() {
   const ImageSrc = [
     { src: "/Banner/beatutifultan.jpg", alt: "千里馬内装" },
     { src: "/Banner/frontdoor.jpg", alt: "千里馬内装" },
-    { src: "/Banner/firstcounter.jpeg", alt: "千里馬内装" },
-    { src: "/Banner/secondcounter.jpeg", alt: "千里馬内装" },
-    { src: "/Banner/secondfloor.jpeg", alt: "千里馬内装" },
   ];
 
   return (
@@ -28,9 +25,9 @@ export function Banner() {
               />
             </figure>
           ))}
-          {/* <figure
+          <figure
             className={clsx(
-              "w-60 h-40 md:w-56 md:h-48 lg:w-96 lg:h-64 z-30",
+              "w-60 h-40 md:w-56 md:h-48 lg:w-96 lg:h-64 z-30 hidden lg:block",
               classes.photo
             )}
           >
@@ -40,7 +37,7 @@ export function Banner() {
               objectFit="cover"
               alt="千里馬内装"
             />
-          </figure> */}
+          </figure>
         </div>
       </div>
     </>
