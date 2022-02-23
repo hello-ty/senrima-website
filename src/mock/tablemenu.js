@@ -45,7 +45,8 @@ export const tableMenu = {
     },
     {
       name: "特選焼しゃぶ",
-      description: "何書こう",
+      description:
+        "和牛のサーロインを大判にスライスし、ポン酢をつけてお召し上がりください。",
       price: 1580,
       half: "",
     },
@@ -57,13 +58,14 @@ export const tableMenu = {
     },
     {
       name: "サガリ",
-      description: "何書こう",
+      description: "柔らかくてヘルシー上質な味わい!",
       price: 980,
       half: "600円",
     },
     {
       name: "ヒレ",
-      description: "何書こう",
+      description:
+        "牛肉の中でも、最も柔らかで脂身が少なくきめ細やかな味わいです。",
       price: 1280,
       half: "700円",
     },
@@ -81,7 +83,7 @@ export const tableMenu = {
     },
     {
       name: "脂付きホルモン",
-      description: "何書こう",
+      description: "脂身の多い和牛の小腸　コラーゲンを多く含みます",
       price: 650,
       half: "350円",
     },
@@ -99,7 +101,7 @@ export const tableMenu = {
     },
     {
       name: "ウインナー",
-      description: "何書こう",
+      description: "子供から大人まで人気です",
       price: 600,
       half: "",
     },
@@ -133,19 +135,19 @@ export const tableMenu = {
     },
     {
       name: "わかめスープ",
-      description: "何書こう",
+      description: "わかめスープ",
       price: 450,
       half: "450円",
     },
     {
       name: "玉子スープ",
-      description: "何書こう",
+      description: "玉子スープ",
       price: 450,
       half: "450円",
     },
     {
       name: "赤だし",
-      description: "何書こう",
+      description: "名古屋だし",
       price: 200,
       half: "200円",
     },
@@ -159,19 +161,19 @@ export const tableMenu = {
     },
     {
       name: "ビビン麺",
-      description: "何書こう",
+      description: "本場韓国の味ピリ辛ソースが決め手です",
       price: 880,
       half: "580円",
     },
     {
       name: "テールそば",
-      description: "何書こう",
+      description: "じっくり煮込んだテールと中華麺を合わせました。",
       price: 980,
       half: "680円",
     },
     {
       name: "ユッケジャンうどん",
-      description: "何書こう",
+      description: "韓国の代表的な辛味スープにうどんを入れました。",
       price: 880,
       half: "580円",
     },

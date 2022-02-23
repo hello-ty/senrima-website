@@ -2,7 +2,7 @@ export const products = {
   meet: [
     {
       description:
-        "歯が触れただけで崩れる柔らかさと、何度食べてもウットリする優しい味わいは別格です。",
+        "黒毛和牛の最高級部位であるヒレ肉から少量取れる「芯の」部位です",
       name: "ヒレステーキ　2200円",
       imageSrc: "/Product/hire.jpg",
       imageAlt: "ヒレステーキ",
@@ -38,7 +38,7 @@ export const products = {
       imageAlt: "イチボ",
     },
     {
-      description: "何書こう ",
+      description: "塩・味噌・辛味噌選べます",
       name: "ミックスホルモン　980円",
       imageSrc: "/NewMenu/mikkusuhorumon.jpeg",
       imageAlt: "ミックスホルモン",
@@ -58,13 +58,13 @@ export const products = {
   ],
   new: [
     {
-      description: `何書こう`,
+      description: `心臓・ビタミン・タンパク質・鉄分・タウリンを多く含みます`,
       name: "ハツ刺し",
       imageSrc: "/NewMenu/hatusasi.jpeg",
       imageAlt: "ハツ刺し",
     },
     {
-      description: `何書こう`,
+      description: `第３胃・脂肪が少なく、鉄分・亜鉛が豊富`,
       name: "せんまい",
       imageSrc: "/Product/kannkoku.jpg",
       imageAlt: "ハツ刺し",
