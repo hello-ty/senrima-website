@@ -21,4 +21,7 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animation-delay"), require("daisyui")],
+  daisyui: {
+    darkTheme: false,
+  },
 };
