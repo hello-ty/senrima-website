@@ -16,7 +16,7 @@ type CardProps = {
 export const Card: VFC<CardProps> = (props) => {
   return (
     <>
-      <div className="max-w-sm rounded overflow-hidden shadow-lg mb-10 lg:mb-0 h-96">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg mb-10 lg:mb-0 h-auto border">
         <figure className={clsx("relative w-full h-52 border bg-slate-500")}>
           <Image
             src={props.src}
