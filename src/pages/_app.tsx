@@ -1,10 +1,12 @@
 import "tailwindcss/tailwind.css";
 import Head from "next/head";
 import { AppProps } from "next/app";
+
 import usePageView from "../hooks/usePageView";
 
 function MyApp({ Component, pageProps }: AppProps) {
   usePageView();
+
   return (
     <>
       <Head>
