@@ -82,7 +82,7 @@ export const products: ProductsProps = {
       imageAlt: "せんまい",
     },
     {
-      description: `赤：コチュジャンベースのピリ辛サラダ\n白：韓国のり・胡椒油を使い、風味豊かに仕上げました`,
+      description: `ビタミン・タンパク質・鉄分・ミネラルを豊富に含みます`,
       name: "特選上レバー(焼き)",
       imageSrc: "/Product/reba.jpg",
       imageAlt: "特選上レバー",
