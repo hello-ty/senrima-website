@@ -10,7 +10,7 @@ const Home: VFC = () => {
   return (
     <div>
       <Head>
-        <title>焼肉千里馬</title>
+        <title>名古屋駅に近い、美味しい「焼肉千里馬」</title>
       </Head>
 
       <Layout>

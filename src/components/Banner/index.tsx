@@ -5,7 +5,7 @@ import { VFC } from "react";
 export const Banner: VFC = () => {
   const ImageSrc = [
     { src: "/Banner/frontdoor.jpg", alt: "千里馬内装" },
-    { src: "/Banner/beatutifultan.jpg", alt: "千里馬内装" },
+    { src: "/Banner/beatutifultan.jpg", alt: "ネギタン" },
   ];
 
   return (

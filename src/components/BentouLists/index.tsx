@@ -8,13 +8,13 @@ export const BentouLists: VFC = () => {
       description: "和牛カルビならではの肉の甘さと香ばしさ。",
       name: "和牛カルビ弁当　1000円",
       imageSrc: "/NewMenu/karubibentou.jpeg",
-      imageAlt: "カルビ弁当",
+      imageAlt: "和牛カルビ弁当",
     },
     {
       description: "ヘルシーな和牛の赤身です。",
       name: "和牛ロース弁当　1000円",
       imageSrc: "/NewMenu/ro-subentou.jpeg",
-      imageAlt: "ロース弁当",
+      imageAlt: "和牛ロース弁当",
     },
     {
       description: "タンの特に上質な部分だけを使用しています",

@@ -16,7 +16,7 @@ export const TopPhoto: VFC<TopPhotoProps> = (props) => {
               src="/NewMenu/negitan.jpg"
               layout="fill"
               objectFit="cover"
-              alt="ネギたん"
+              alt="ネギタン"
             />
           </figure>
           <div

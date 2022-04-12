@@ -52,7 +52,7 @@ export const Access: VFC = () => {
               <div className="relative w-full lg:w-1/2 h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                 <Image
                   src="/Banner/secondfloor.jpeg"
-                  alt="二階カウンター"
+                  alt="二階通路"
                   layout="fill"
                   objectFit="cover"
                 />

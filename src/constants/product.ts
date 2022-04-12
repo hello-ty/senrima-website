@@ -83,9 +83,9 @@ export const products: ProductsProps = {
     },
     {
       description: `ビタミン・タンパク質・鉄分・ミネラルを豊富に含みます`,
-      name: "特選上レバー(焼き)",
+      name: "特選上レバー（焼き）",
       imageSrc: "/Product/reba.jpg",
-      imageAlt: "特選上レバー",
+      imageAlt: "特選上レバー（焼き）",
     },
   ],
   salad: [

@@ -9,7 +9,7 @@ const Products: VFC = () => {
   return (
     <div>
       <Head>
-        <title>焼肉千里馬</title>
+        <title>お品書き「焼肉千里馬」</title>
       </Head>
 
       <Header />

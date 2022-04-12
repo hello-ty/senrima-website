@@ -30,7 +30,7 @@ export const Cource: VFC = () => {
       content: "",
       tab1: "1500円",
       tab2: "コース注文時のみ",
-      alt: "飲み放題",
+      alt: "90分飲み放題メニュー",
     },
   ];
 

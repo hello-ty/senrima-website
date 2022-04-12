@@ -8,7 +8,7 @@ const Bentou: VFC = () => {
   return (
     <div>
       <Head>
-        <title>焼肉弁当</title>
+        <title>焼肉弁当「焼肉千里馬」</title>
       </Head>
 
       <Header />
