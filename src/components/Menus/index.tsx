@@ -22,6 +22,14 @@ export const Menus: VFC = () => {
                     objectFit="cover"
                     alt={callout.alt}
                   />
+                  <div className="absolute bottom-0 right-0 w-10 h-10 rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
+                    <Image
+                      src="/click.png"
+                      layout="fill"
+                      objectFit="contain"
+                      alt="クリック"
+                    />
+                  </div>
                 </div>
                 <h3 className="mt-6 text-sm text-gray-500">
                   <Link href={callout.href}>
