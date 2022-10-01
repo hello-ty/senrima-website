@@ -24,8 +24,8 @@ export const menulists: MenuListProps[] = [
   {
     name: "焼肉弁当",
     description: "オーダー毎に丁寧に焼き上げます。",
-    imageSrc: "/Menu/toptanbentou.jpeg",
-    href: "/Menu/bentou",
+    imageSrc: "/Menu/bentou.jpg",
+    href: "/PDF/senrima.pdf",
     alt: "焼肉弁当",
   },
 ];

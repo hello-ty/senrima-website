@@ -9,7 +9,7 @@ import Link from "next/link";
 const navigation = [
   { name: "トップ", href: "/", current: false },
   { name: "お品書き", href: "/products", current: false },
-  { name: "テイクアウト", href: "/Menu/bentou", current: false },
+  { name: "テイクアウト", href: "/PDF/senrima.pdf", current: false },
 ];
 
 const classNames = (...classes: any[]) => {
