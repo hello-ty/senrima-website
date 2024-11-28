@@ -4,6 +4,7 @@ import { Access } from "../components/Access";
 import { Banner } from "../components/Banner";
 import { Cource } from "../components/Cource";
 import { Menus } from "../components/Menus";
+import { Flyer } from "../components/Flyer";
 import { Layout } from "../layout/";
 
 const Home: VFC = () => {
@@ -16,6 +17,7 @@ const Home: VFC = () => {
       <Layout>
         <>
           <Banner />
+          <Flyer />
           <main className="py-7 lg:px-24 md:px-10 sm:px-1 w-screen font-fancy">
             <Menus />
             <Cource />
