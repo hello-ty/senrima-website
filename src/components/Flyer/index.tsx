@@ -6,7 +6,7 @@ import { VFC } from "react";
 export const Flyer: VFC = () => {
   return (
     <>
-      <div className={clsx("w-screen h-auto font-fancy mt-20")}>
+      <div className={clsx("w-screen h-auto font-fancy")}>
         <div className={clsx("relative h-[637px] w-full")}>
             <figure className="absolute h-[637px] sm:left-1/2 sm:-translate-x-1/2">
               <Image
