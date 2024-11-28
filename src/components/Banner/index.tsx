@@ -3,40 +3,18 @@ import clsx from "clsx";
 import { VFC } from "react";
 
 export const Banner: VFC = () => {
-  const ImageSrc = [
-    { src: "/Banner/frontdoor.jpg", alt: "千里馬内装" },
-    { src: "/Banner/beatutifultan.jpg", alt: "ネギタン" },
-  ];
-
   return (
     <>
-      <div className={clsx("border w-screen h-[calc(100vh-4rem)] font-fancy")}>
-        <div className={clsx("relative h-full w-full bg-slate-800")}>
-          {ImageSrc.map((item, index) => (
-            <figure
-              key={index}
-              className="absolute h-full w-full opacity-0 animate-changeImgAnimation first-of-type:animation-delay-10000"
-            >
+      <div className={clsx("border-t-2 w-screen h-auto font-fancy")}>
+        <div className={clsx("relative h-[637px] w-full")}>
+            <figure className="absolute h-[637px] sm:left-1/2 sm:-translate-x-1/2">
               <Image
-                src={item.src}
-                layout="fill"
-                objectFit="cover"
-                alt={item.alt}
+                src="/new_year_end_party.png"
+                width={450}
+                height={637}
+                alt="新忘年会 チラシ"
               />
             </figure>
-          ))}
-          <figure
-            className={clsx(
-              "w-60 h-40 md:w-56 md:h-48 lg:w-96 lg:h-64 z-30 hidden lg:block absolute top-0 right-0 bottom-0 left-0 m-auto opacity-80"
-            )}
-          >
-            <Image
-              src="/logotop.png"
-              layout="fill"
-              objectFit="cover"
-              alt="千里馬内装"
-            />
-          </figure>
         </div>
       </div>
     </>
