@@ -17,6 +17,16 @@ export const Flyer: VFC = () => {
               />
             </figure>
         </div>
+        <div className={clsx("relative h-[637px] w-full")}>
+            <figure className="absolute h-[637px] sm:left-1/2 sm:-translate-x-1/2">
+              <Image
+                src="/anniversary_template.png"
+                width={450}
+                height={637}
+                alt="千里馬　インスタグラム"
+              />
+            </figure>
+        </div>
       </div>
     </>
   );
