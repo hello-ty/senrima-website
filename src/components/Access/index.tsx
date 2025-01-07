@@ -59,16 +59,15 @@ export const Access: VFC = () => {
               </div>
             </dd>
             <dt></dt>
-            <dd>40名様まで宴会できます</dd>
           </div>
           <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">席数</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-              ２階：テーブル　７席(4〜8人)
+              １階：テーブル　１席(8名様)　/　カウンター　4席(1〜2名様)
               <br />
-              １階：テーブル　１席(6人)　/　カウンター　5席(1席/2人)
+              ２階：テーブル　７席(2〜45名様)
               <br />
-              ※団体様(10名様以上の予約可能)
+              ※20名様以上の宴会も可能
             </dd>
           </div>
           <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -80,7 +79,7 @@ export const Access: VFC = () => {
           <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">予約可否</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-              17時~予約可
+              16時より電話予約承ります
             </dd>
           </div>
           <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
