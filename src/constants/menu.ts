@@ -18,7 +18,7 @@ export const menulists: MenuListProps[] = [
     name: "ドリンクメニュー",
     description: "ワインからジュースまで揃ってます。",
     imageSrc: "/Menu/beer.jpg",
-    href: "/PDF/twodrink2.pdf",
+    href: "/PDF/twodrink3.pdf",
     alt: "ドリンクメニュー",
   },
   {
